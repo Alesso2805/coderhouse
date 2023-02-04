@@ -1,0 +1,375 @@
+#main-title {
+    color: white;
+    font-size: 100px;
+    margin: 0px 0px 0px 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#title-terms {
+    display: flex ;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.policy {
+    max-width: 800px;
+    margin: 50px auto 0px;
+    padding: 0px 32px 88px;
+}
+
+.terms-title {
+    display: flex ;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.terms-subtitles {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 8px;
+}
+
+.terms-sub-subtitles {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.conditions {
+    margin-bottom: 0px;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.para-2 {
+    display: flex;
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.para-3 {
+    display: flex;
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.policy-link {
+    display: flex;
+    justify-content: left;
+    text-align: justify;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+header {
+    background-color: red;
+    padding: 2rem 2rem;
+}
+
+.header-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#selecciones {
+    margin: 0px 60px 0px 0px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.reservas {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: 1px black solid;
+    margin-bottom: 100px;
+    transition: color 0.3s ease;
+    color: black;
+    text-decoration: none;
+}
+
+.reservas:hover {
+    border: 1px red solid;
+    color:red;
+    cursor: pointer;
+}
+
+header nav div a {
+    color: white;
+    margin: 0px 40px 0px 0px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+header nav div a:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px 20px 40px;
+    color: white;
+}
+
+.icon {
+    float: right;
+    margin: 15px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.icon {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+text {
+    text-align: center;
+}
+
+.extern {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.terms-main {
+    margin: 10px;
+}
+.extern:hover {
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#local-title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 50px 0px 10px 0px;
+}
+
+#text-under-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 10px 60px 10px;
+}
+
+.img-telefono {
+    display: flex;
+}
+
+.boxes {
+    margin: 20px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+    grid-row-gap: 25px;
+    row-gap: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    justify-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.direccion, .numero {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.fono {
+    display: flex;
+    width: auto;
+}
+
+.sobre-nosotros {
+    font-size: 80px;
+    text-align: center;
+}
+
+.paragraph-about-us {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 24px;
+    width: 1000px;
+}
+
+#about-us{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#contact-us {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.tabla-reserva {
+    font-size: 20px;
+    font-weight: 100;
+    list-style: none;
+    margin-bottom: 20px;
+    padding:0px;
+}
+
+li {
+    border-top:rgb(255, 0, 0) 1px solid;
+    padding: 0.85em 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.toma-de-reservas {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.horario-reserva {
+    font-weight: 100;
+}
+
+.title-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.entry-title {
+    font-size: 40px;
+}
+.container {
+    display: grid;
+    justify-content: justify;
+    max-width: 1200px;
+    margin: 50px auto 0px;
+    padding: 0px 32px 88px;
+}
+
+.box-entradas {
+    width: 300px;
+    height: 470px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}   
+
+.boton-comprar {
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 8px 19px 3px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background: #dd042b;
+    border: none;
+    text-align: center;
+    transition: all .2s;
+    color: #fff;
+    width: 100%;
+}
+
+#reserve-title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.table-reserve {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#nombre, #telefono {
+    margin-right: 20px;
+}
+
+#btn-reserva {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 8px 19px 3px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background: #dd042b;
+    border: none;
+    text-align: center;
+    transition: all .2s;
+    color: #fff;
+    width: 20%;
+    margin-left: 750px;
+}
